@@ -1688,46 +1688,6 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>moveKeyboardFocusToNextArea:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MoveFocusToNextArea</string>
-				<key>Group</key>
-				<string>Navigate Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~	</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Move Focus to Next Area</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>moveKeyboardFocusToPreviousArea:</string>
-				<key>Alternate</key>
-				<string>YES</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MoveFocusToPreviousArea</string>
-				<key>Group</key>
-				<string>Navigate Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~$	</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Move Focus to Previous Area</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>navigateToNextFindResult:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -2111,8 +2071,6 @@
 				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>$@N</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
@@ -2259,6 +2217,26 @@
 				<string>NO</string>
 				<key>Title</key>
 				<string>Open in…</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>openInNewWindow:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.OpenInNewWindow</string>
+				<key>Group</key>
+				<string>File Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>$@N</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Open in New Window</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -2593,6 +2571,26 @@
 				<string>NO</string>
 				<key>Title</key>
 				<string>Select All Find Matches</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>unhideAllApplications:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.ShowAll</string>
+				<key>Group</key>
+				<string>Xcode Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~$@H</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Show All</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -3586,7 +3584,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Comment on Current Line</string>
+				<string>Add Pull Request Discussion to Current Line</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -3606,7 +3604,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Comment on Current Line</string>
+				<string>Add Pull Request Discussion to Current Line</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -3626,7 +3624,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Comment on Current Line</string>
+				<string>Add Pull Request Discussion to Current Line</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -4108,7 +4106,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~r</string>
+				<string>^~\\</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -4130,7 +4128,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~r</string>
+				<string>^~\\</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -4152,7 +4150,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^r</string>
+				<string>^\\</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -4174,7 +4172,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^r</string>
+				<string>^\\</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
